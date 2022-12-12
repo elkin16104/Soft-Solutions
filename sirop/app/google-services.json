@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "479373378666",
+    "firebase_url": "https://sirop-89b6b-default-rtdb.firebaseio.com",
+    "project_id": "sirop-89b6b",
+    "storage_bucket": "sirop-89b6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479373378666:android:a509ff81a3d2eca09eb613",
+        "android_client_info": {
+          "package_name": "com.damd.sirop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479373378666-3kj9p6audircvmpdk8gs24evuuggshr2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.damd.sirop",
+            "certificate_hash": "4d1fd72ccb39e03a47cfdc8b0003be5093f67cf2"
+          }
+        },
+        {
+          "client_id": "479373378666-v12hodk6bb84jbee7564cl9f4h34120i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo3uRC-OXsOMUIKWK6xPZEwp47djRoCBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479373378666-v12hodk6bb84jbee7564cl9f4h34120i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

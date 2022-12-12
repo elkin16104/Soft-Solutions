@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".CrudUsuariosActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="11dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:ems="10"
+            android:hint="@string/nombreCrud"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingTop="12dp"
+            android:textColorHint="#616161"
+            android:textColorLink="@color/black" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/apellidoCrud"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingTop="12dp"
+            android:textColorHint="#616161" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/correoCrud"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:paddingTop="12dp"
+            android:textColorHint="#616161" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/contrasenaCrud"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:paddingTop="12dp"
+            android:textColorHint="#616161" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="14dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/lista_de_usuarios"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <ListView
+            android:id="@+id/txtViewUsuarios"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
